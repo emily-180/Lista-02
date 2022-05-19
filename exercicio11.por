@@ -21,14 +21,14 @@ programa
 		}
 		
 		se (consumo >= 31 e consumo <= 100)	{
-			consumo = consumo - 10
+			consumo = consumo - 30
 			valor_conta = 7 + (consumo * 2)
 			escreva("Franquia com valor de ", valor_conta, "R$.") 
 		
 		}
 		
 		se (consumo >= 100)	{
-			consumo = consumo - 10
+			consumo = consumo - 100
 			valor_conta = 7 + (consumo * 5)
 			escreva("Franquia com valor de ", valor_conta, "R$.") 
 		
@@ -39,14 +39,3 @@ programa
 		
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 741; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
